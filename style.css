@@ -1,0 +1,73 @@
+.container, .container2, .container3 {
+    width: 100%;
+    margin-bottom: 75px;
+}
+.container::after,
+.container2::after,
+.container3::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.block, .block2, .block3, .bl, .blik1, .blik2 {
+    width: 250px;
+    height: 50px;
+    background-color: #ddd;
+    border: 1px solid #333;
+    margin: 10px;
+}
+.block, .block3, .blik1  {
+    float: left;
+}
+.block2, .bl, .blik2 {
+    float: right;
+}
+.container4 {
+    width: 100%;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.black {
+    float: right;
+    width: 100px;
+    height: 20px;
+    padding: 40px;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    border: 1px solid #333;
+    margin-right: 10px;
+}
+.black1 {
+    float: left;
+    margin-left: 69%;
+    width: 300px;
+    height: 200px;
+    background-color: #ddd;
+    border: 1px solid #333;
+    margin-right: 10px;
+
+}
+.container5 {
+    width: 100%;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.black_0 {
+    float: right;
+    margin-right: 40%;
+    width: 100px;
+    height: 20px;
+    padding: 40px;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    border: 1px solid #333;
+}
+.black_1 {
+    float: left;
+    margin-left: 30%;
+    width: 300px;
+    height: 200px;
+    background-color: #ddd;
+    border: 1px solid #333;
+    margin-right: 10px;
+}
